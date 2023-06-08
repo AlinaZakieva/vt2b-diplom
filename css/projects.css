@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/*bg*/
+.bg__menu {
+    position: absolute;
+    width: 100%;
+    height: 0.4vh;
+
+    background: linear-gradient(180deg, #000000 -538.2%, rgba(228, 228, 228, 0) 100%);
+}
+
+/*project*/
+.project__1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.projects h6 {
+    margin-top: 8%;
+    margin-left: 12%;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.text {
+    width: 50%;
+}
+
+.projects img {
+    width: 35%;
+    height: 40%;
+}
+
+.h {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*bg*/
+.bg__footer {
+    position: absolute;
+    width: 100%;
+    height: 0.4vh;
+    margin-top: 1.5%;
+
+    background: linear-gradient(180deg, #000000 -538.2%, rgba(228, 228, 228, 0) 100%);
+}
+
+/*Подвал*/
+footer {
+    position: relative;
+    margin: 0;
+    padding: 5vw;
+    width: 100%;
+    height: 2vw;
+}
+
+.fottext {
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: black;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <script src="js/jquery-3.6.3.js"></script>
+
+</head>
+
+<body>
+   <script>
+
+      jQuery.ajax({
+         type: "POST",
+         url: "test.php",
+         dataType: "json",
+         success: function (result) {
+            console.log(result);
+            console.log(result.result[1].ID);
+            console.log('okey');
+
+         },
+         error: function (result) {
+            console.log(result);
+            console.log('error');
+         }
+      })
+
+
+   </script>
+</body>
+
+</html>

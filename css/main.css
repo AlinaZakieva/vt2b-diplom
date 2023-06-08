@@ -1,0 +1,1016 @@
+body {
+    padding: 0;
+    margin: 0; 
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/*intro*/
+
+.new_intro {
+    width: 100%;
+    height: 500px;
+    background: rgba(203, 202, 197, 0.3);
+    border-radius: 20px;
+}
+.container_intro {
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    width: 85%;
+    padding: 40px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    
+}
+.left_section_intro {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    justify-content: space-evenly
+}
+.title {
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 42px;
+}
+.button {
+    width: 40%;
+    text-align: center;
+    /*width: fit-content;*/
+    border: 1px solid #000000;
+    border-radius: 30px; 
+    padding: 10px 20px;
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 20px;
+
+    text-decoration: none;
+}
+.right_section_intro {
+    height: 100%;
+    margin-left: 20px;
+}
+.img_intro {
+    height: 100%;
+}
+
+
+
+/* .intro_cl{
+    width: 100%;
+    height: fit-content;
+}
+.intro {
+    display: flex;
+}
+
+.title_button {
+    display: flex;
+}
+
+.title {
+    width: 40%;
+    margin-top: 15%;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 42px;
+    line-height: 140%;
+}
+
+.button {
+    width: 19%;
+    margin-top: 30%;
+    padding: 0.8%;
+    text-align: center;
+
+    border: 1px solid #000000;
+    border-radius: 30px; 
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 20px;
+
+    text-decoration: none;
+}
+
+.img_intro {
+    margin-top: 10.4%;
+    right: 18%;
+    width: 35%;
+}
+
+.bg_intro {
+    width: 100%;
+    margin-left: -10%;
+    margin-top: 7%;
+} */
+
+/*main*/
+.main {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.heading {
+    margin: 5% auto;
+    text-align: center;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 40px;
+    color: black;
+}
+
+/*colums*/
+.flex {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    margin: 7% 5%;
+}
+
+.flex img {
+    width: 45%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.main_text {
+    position: relative;
+    margin: 1% 0;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 21px;
+    
+    color: black;
+}
+
+.flex nav{
+    text-align: left;
+    width: 100%;
+}
+
+.Bold_text {
+    margin: 0 15%;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 21px;
+    color: black;
+}
+
+.flex ul li {
+    margin: 0 15%;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 20px;
+    line-height: 27px;
+
+    color: black;
+}
+
+.line {
+    position: relative;
+    text-align: center;
+    margin: 1% auto;
+    margin-bottom: 7%;
+    width: 70%;
+    border-bottom: 1px solid black;
+}
+
+.first__column {
+    width: 32.4%;
+
+    background: rgba(203, 202, 197, 0.3);
+    border-radius: 30px;
+}
+
+.second__column {
+    width: 32.4%;
+
+    background: rgba(203, 202, 197, 0.3);
+    border-radius: 30px;
+}
+
+.last__column {
+    width: 32.4%;
+
+    background: rgba(203, 202, 197, 0.3);
+    border-radius: 30px;
+}
+
+.btn_npr {
+    padding: 2.5% 20%;
+
+    background: rgba(255, 255, 255, 0.65);
+    border: 1px solid #000000;
+    border-radius: 30px;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 19px;
+
+    text-decoration: none;
+}
+
+.btn_1 {
+    margin-top: 17%;
+    margin-bottom: 12%;
+}
+
+.btn_3 {
+    margin-top: 21.1%;
+}
+
+.button__abp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button__abp div {
+    margin-top: 22%;
+    margin-left: -10%;
+    margin-right: 5%;
+}
+
+.btn_2 {
+    width: 110%;
+}
+
+.btn_calc img {
+    width: 80%;
+}
+
+/*Предпроектное обследование*/
+.text_pr_obsl {
+    position: absolute;
+    width: 30%;
+    margin-left: 13%;
+    margin-top: 3%;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 24px;
+}
+
+.img_pr_obsl {
+    position: relative;
+    margin: 3% 0;
+    right: -59%;
+    width: 30%;
+    margin-bottom: 2.5%;
+}
+
+.btn_pr_obsl_1 {
+    position: absolute;
+    width: 18.5%;
+    margin-top: 24%;
+    margin-left: 13%;
+    text-align: center;
+}
+
+.btn_pr_obsl_2 {
+    position: absolute;
+    width: 5%;
+    margin-top: 24%;
+    margin-left: 32%;
+    text-align: center;
+}
+
+.btn_pr_obls {
+    padding: 5% 26.6%;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 19px;
+
+    text-decoration: none;
+
+    background: rgba(239, 237, 237, 0.71);
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+.btn_pr_obls_2 {
+    padding: 16% 31%;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 19px;
+
+    text-decoration: none;
+
+    background: rgba(239, 237, 237, 0.71);
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+/*Компетенции*/
+.flex__pic {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 7%;
+    margin-bottom: 3%;
+}
+
+.pics img{
+    padding: 1.5% 2.5%;
+    width: 14%;
+}
+
+/*Проекты*/
+.project {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+  }
+
+  .project h6 {
+    margin-top: 3.5%;
+    margin-bottom: 6%;
+  }
+  
+  .project-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .project-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .project-card {
+    flex: 0 0 auto;
+    width: 293px;
+    height: 352px;
+    margin-right: 40px;
+  }
+  
+  .project-image {
+    position: relative;
+    width: 100%;
+    height: 252px;
+    overflow: hidden;
+  }
+  
+  .project-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .project-card:hover .card-btn {
+    opacity: 1;
+  }
+  
+  .card-btn:hover {
+    background: rgba(0, 0, 0, 80%);
+    color: #fff;
+  }
+
+  .project-info {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+  }
+  
+  .project-name {
+    text-transform: uppercase;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: rgba(0, 0, 0, 80%);
+  }
+  
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+  }
+  
+  .pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+  
+  .collection-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .collection {
+    position: relative;
+  }
+  
+  .collection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .collection:nth-child(3) {
+    grid-column: span 2;
+    margin-bottom: 10px;
+  }
+
+  /*Контакты*/
+  .contacts {
+    width: 100%;
+    height: 90vh;
+    margin-top: 4%;
+    position: relative;
+
+    background: url("../image/Rectangle\ 20.svg");
+    border-radius: 30px;
+    background-size: cover;
+  }
+
+  .contents {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 3%;
+    text-align: center;
+    align-items: center;
+    width: 55%;
+    padding: 30px;
+
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 13px;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: #000000;
+  }
+
+  .contents h6 {
+    margin-top: 3%;
+    margin-bottom: 9%;
+  }
+
+  .bold__text {
+    font-weight: 600;
+  }
+
+.user-details {
+    margin: 20px;
+  }
+
+.user-details .input-box {
+    width: calc(100% - 2 - 20px);
+  }
+
+  .user-details .input-box input {
+    height: 45px;
+    width: 50%;
+    padding: 10px;
+    padding-left: 15px;
+    margin-top: 10px;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #fff;
+  }
+
+  .button_email {
+    height: 45px;
+    margin: 4% 0;
+    margin-bottom: 3%;
+  }
+
+  .button_email input {
+    height: 100%;
+    width: 30%;
+    outline: none;
+    color: black;
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    /*border: 1px solid #000000;*/
+    background: rgba(190, 190, 190, 0.7);
+    border-radius: 30px;
+    letter-spacing: 1px;
+  }
+
+ .button_email input:hover {
+    background: rgba(190, 190, 190, 0.7);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /*Подвал*/
+  /*footer {
+    margin-top: 60px;
+    padding: 30px;
+    background: #424242;
+  }
+
+  .fottext {
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    color: rgb(255, 255, 255);
+    margin: 0;
+    
+  }*/
+
+  footer {
+    position: relative;
+    margin: 0;
+    padding: 5vw;
+    width: 100%;
+    height: 3vw;
+  }
+
+  .fottext {
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: black;
+  }
+
+/*popup*/
+.pop_up {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /*background: transparent;*/
+    z-index: 2;
+    transform: translateY(0%) scale(0);
+    transition: 0.5s ease-in-out;
+}
+
+.pop_up.active {
+    transform: translateY(0%) scale(100%);
+    /*background: rgba(167, 167, 167, 0.4);*/
+}
+
+.pop_up_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pop_up_body {
+    position: relative;
+    margin: auto;
+    width: 38%;
+    height: 80vh;
+    padding: 2%;
+
+    background: rgba(255, 255, 255, 0.95);
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+
+    border-radius: 30px;
+}
+
+.pop_up_body3 {
+    position: relative;
+    margin: auto;
+    width: 38%;
+    height: 75vh;
+    padding: 2%;
+
+    background: rgba(255, 255, 255, 0.95);
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+
+    border-radius: 30px;
+}
+
+.pop_up_close img{
+    position: absolute;
+    width: 6%;
+    top: 2%;
+    right: 4%;
+    cursor: pointer;
+}
+
+.icon img{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.main_text_pop_up {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+    position: relative;
+    margin: 1% 0;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 24px;
+    
+    color: black;
+}
+
+.line_pop_up {
+    position: relative;
+    text-align: center;
+    margin: 1% auto;
+    margin-bottom: 7%;
+    width: 62%;
+    border-bottom: 1px solid black;
+}
+
+.bold_text_pop_up {
+    margin-left: 10%;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 20px;
+    color: black;
+}
+
+.pop_up_body ul {
+    margin-left: 15%;
+    font-size: 17px;
+}
+
+.pop_up_body3 ul {
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+/*popup_predpr*/
+.pop_up4 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /*background: transparent;*/
+    z-index: 2;
+    transform: translateY(0%) scale(0);
+    transition: 0.5s ease-in-out;
+}
+
+
+.pop_up_body4 h6 {
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 5%;
+}
+
+.input_box2 {
+    position: relative;
+    width: 90%;
+    height: 10%;
+    margin: 7% auto;
+}
+
+.pop_up4.active {
+    transform: translateY(0%) scale(100%);
+    /*background: rgba(167, 167, 167, 0.4);*/
+}
+
+.pop_up_body4 {
+    position: relative;
+    margin: auto;
+    width: 30%;
+    height: fit-content;
+    padding: 2%;
+
+    background: rgba(255, 255, 255, 0.95);
+    /*backdrop-filter: blur(20px);*/
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+
+    border-radius: 30px;
+}
+
+.pop_up_body4 button {
+    height: 100%;
+    display: block;
+    margin: 4% auto;
+    margin-top: 15%;
+    padding: 1.5% 15%;
+    cursor: pointer;
+    border: 1px solid;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    border-radius: 30px;
+}
+
+/*popup_calc*/
+.pop_up_body5 {
+    position: relative;
+    margin: auto;
+    width: 33%;
+    height: fit-content;
+    padding: 4%;
+
+    background: rgba(255, 255, 255, 0.95);
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+
+    border-radius: 30px;
+}
+
+.pop_up_body5 h6 {
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+.pop_up_body5 h5 {
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 0.5%;
+    margin-bottom: 7%;
+}
+
+.pop_up_body5 span {
+    font-size: 19px;
+}
+
+.input_box {
+    position: relative;
+    width: 90%;
+    height: 10%;
+    border-bottom: 2px solid #162938;
+    margin: 7% auto;
+}
+
+.input_box_radio {
+    position: relative;
+    width: 90%;
+    height: 10%;
+    margin: 6% auto;
+}
+
+.input_box_radio span {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    left: 0;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input_box_radio input:focus~label,
+.input_box_radio input:valid~label {
+    top: -45%;
+}
+
+.input_box_radio input {
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.input_box label {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input_box input:focus~label,
+.input_box input:valid~label {
+    top: -45%;
+}
+
+.input_box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn-flex {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.btn-flex button {
+    height: 100%;
+    background: rgba(223, 223, 223, 0.9);
+    border-radius: 30px;
+    padding: 2% 7%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.cost-calc {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 5%;
+    margin-top: -3%;
+    margin-bottom: 4%;
+}
+
+.cost-calc span {
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 0 2%;
+}
+
+/*услуга*/
+.pop_up_body6 {
+    position: relative;
+    margin: auto;
+    width: 35%;
+    height: 35vh;
+    padding: 4%;
+
+    /*background: rgba(255, 255, 255, 0.95);*/
+    backdrop-filter: blur(20px);
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+
+    border-radius: 30px;
+}
+
+.pop_up_body6 span {
+    font-size: 19px;
+}
+
+.pop_up_body6 button {
+    height: 100%;
+    display: block;
+    margin: 4% auto;
+    padding: 1% 5%;
+    cursor: pointer;
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    border-radius: 30px;
+}
+
+/* проверка формы */
+.form__input._error {
+    box-shadow: 0 0 10px red;
+}
+
+/*предпроектное обследование*/
+.pop_up_body7 {
+    position: relative;
+    margin: auto;
+    width: 35%;
+    height: 35vh;
+    padding: 4%;
+
+    /*background: rgba(255, 255, 255, 0.95);*/
+    backdrop-filter: blur(20px);
+
+    font-family: Viaoda Libre;
+    font-style: normal;
+    font-weight: 400;
+
+    border-radius: 30px;
+}

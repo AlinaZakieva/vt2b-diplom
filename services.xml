@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.2.0
+- https://www.phpmyadmin.net
+-
+- Хост: localhost:8889
+- Время создания: Июн 08 2023 г., 15:29
+- Версия сервера: 5.7.39
+- Версия PHP: 7.4.33
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="services" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="users">
+                CREATE TABLE `users` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `user_login` varchar(100) NOT NULL,
+                  `user_password` varchar(500) NOT NULL,
+                  `name_user` varchar(150) DEFAULT NULL,
+                  `surname_user` varchar(150) DEFAULT NULL,
+                  `lastname_user` varchar(150) DEFAULT NULL,
+                  `phone_user` varchar(150) DEFAULT NULL,
+                  `mail_user` varchar(150) DEFAULT NULL,
+                  `accept_field` tinyint(1) DEFAULT NULL,
+                  `SRM_id` int(11) DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+            </pma:table>
+            <pma:table name="web_development">
+                CREATE TABLE `web_development` (
+                  `id` int(11) NOT NULL,
+                  `name` text NOT NULL,
+                  `price` int(11) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'services'
+    -->
+    <database name="services">
+        <!-- Таблица users -->
+        <table name="users">
+            <column name="id">1</column>
+            <column name="user_login">alina</column>
+            <column name="user_password">$2y$10$/q9KYASSZvtDEmXqvwr.yOZTS7zOJ/nLKgOuXcjqH53MCQG0r9emi</column>
+            <column name="name_user">NULL</column>
+            <column name="surname_user">NULL</column>
+            <column name="lastname_user">NULL</column>
+            <column name="phone_user">NULL</column>
+            <column name="mail_user">NULL</column>
+            <column name="accept_field">NULL</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">2</column>
+            <column name="user_login">ya</column>
+            <column name="user_password">$2y$10$dzI3DXl0yb7PBvSTAsefReidbRcToohSdcampvYXg5XbZqaEUDMES</column>
+            <column name="name_user">NULL</column>
+            <column name="surname_user">NULL</column>
+            <column name="lastname_user">NULL</column>
+            <column name="phone_user">NULL</column>
+            <column name="mail_user">NULL</column>
+            <column name="accept_field">NULL</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">3</column>
+            <column name="user_login">aa</column>
+            <column name="user_password">$2y$10$M8xdDpfb7ps3jowt1nGd5Ozfjqy5wjVj.d/7WJUmzi86.52N2r.Ha</column>
+            <column name="name_user">NULL</column>
+            <column name="surname_user">NULL</column>
+            <column name="lastname_user">NULL</column>
+            <column name="phone_user">NULL</column>
+            <column name="mail_user">NULL</column>
+            <column name="accept_field">NULL</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">4</column>
+            <column name="user_login">aaaa</column>
+            <column name="user_password">$2y$10$B2N5OitGVOFqzlHuVb5VR.ivZV.ds2ZTk6zQCA8VqGk2AbsElMs/C</column>
+            <column name="name_user">NULL</column>
+            <column name="surname_user">NULL</column>
+            <column name="lastname_user">NULL</column>
+            <column name="phone_user">NULL</column>
+            <column name="mail_user">NULL</column>
+            <column name="accept_field">NULL</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">5</column>
+            <column name="user_login">123542157241</column>
+            <column name="user_password">$2y$10$2CzcZ.3GUrV4QMIxqpxEY.owHTyCMgce/PDrT.LOY5nJ3rdQV2iAq</column>
+            <column name="name_user">NULL</column>
+            <column name="surname_user">NULL</column>
+            <column name="lastname_user">NULL</column>
+            <column name="phone_user">NULL</column>
+            <column name="mail_user">NULL</column>
+            <column name="accept_field">NULL</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">6</column>
+            <column name="user_login">a</column>
+            <column name="user_password">$2y$10$iunbyVRe.Hjou1r0bY7Y6e5dS4qmH0SknvzA36TBnd8W1cSVsbGUC</column>
+            <column name="name_user">NULL</column>
+            <column name="surname_user">NULL</column>
+            <column name="lastname_user">NULL</column>
+            <column name="phone_user">NULL</column>
+            <column name="mail_user">NULL</column>
+            <column name="accept_field">NULL</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">7</column>
+            <column name="user_login">aaaaa</column>
+            <column name="user_password">$2y$10$vaiQTL3D4WOixMipvyofwenfejiYiutjk7TctPmB2jkmJi8cSf4q.</column>
+            <column name="name_user">NULL</column>
+            <column name="surname_user">NULL</column>
+            <column name="lastname_user">NULL</column>
+            <column name="phone_user">NULL</column>
+            <column name="mail_user">NULL</column>
+            <column name="accept_field">NULL</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">8</column>
+            <column name="user_login">test1</column>
+            <column name="user_password">$2y$10$BDVLYzasyWCudFfeaQNDBuc6qzWkpIMu4DZtO3I4Kea1jbR7mY6YS</column>
+            <column name="name_user">Иван</column>
+            <column name="surname_user">Иванов</column>
+            <column name="lastname_user">Иванович</column>
+            <column name="phone_user">71111111111</column>
+            <column name="mail_user">ivanov@gmail.com</column>
+            <column name="accept_field">NULL</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">9</column>
+            <column name="user_login">test2</column>
+            <column name="user_password">$2y$10$LxoCC3X3TFXIE3sXn.lCWO3oYxhr830oi4rAiDrMp1agXbxfB0Huq</column>
+            <column name="name_user">NULL</column>
+            <column name="surname_user">NULL</column>
+            <column name="lastname_user">NULL</column>
+            <column name="phone_user">NULL</column>
+            <column name="mail_user">NULL</column>
+            <column name="accept_field">NULL</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">10</column>
+            <column name="user_login">aa1</column>
+            <column name="user_password">$2y$10$tlRhd5HAykcUqlk1vbrwt.QzW/g9xB6Co29fZWXFw73B6oC30he.O</column>
+            <column name="name_user">Алина</column>
+            <column name="surname_user">Закиева</column>
+            <column name="lastname_user">Ильдаровна</column>
+            <column name="phone_user">7999999999</column>
+            <column name="mail_user">aallala@gmail.com</column>
+            <column name="accept_field">NULL</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">11</column>
+            <column name="user_login">alina1</column>
+            <column name="user_password">$2y$10$Tk.SknL4CE/7lkv/mSAmQ.PQln.ngh4d7lS.2bPyZMWXoeMu944fy</column>
+            <column name="name_user">ь</column>
+            <column name="surname_user">ь</column>
+            <column name="lastname_user">б</column>
+            <column name="phone_user">79999999999</column>
+            <column name="mail_user">jvgjg@mail.ru</column>
+            <column name="accept_field">NULL</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">12</column>
+            <column name="user_login">ivanov</column>
+            <column name="user_password">$2y$10$fKN7u7iOpHpCmu8.o6ki2eubpsAZTR.T0cverFQlzW4t.on2cjZ9i</column>
+            <column name="name_user">Иван</column>
+            <column name="surname_user">Иванов</column>
+            <column name="lastname_user">Иванович</column>
+            <column name="phone_user">79888299292</column>
+            <column name="mail_user">ivanov@mail.ru</column>
+            <column name="accept_field">1</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">13</column>
+            <column name="user_login"></column>
+            <column name="user_password">$2y$10$P4AAxrR62ZHJHNkVKulWy.j15EzR6N2gg6cZu77j/m5IgLtf4QDLy</column>
+            <column name="name_user">NULL</column>
+            <column name="surname_user">NULL</column>
+            <column name="lastname_user">NULL</column>
+            <column name="phone_user">NULL</column>
+            <column name="mail_user">NULL</column>
+            <column name="accept_field">NULL</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">14</column>
+            <column name="user_login">alina2</column>
+            <column name="user_password">$2y$10$JbZuBaZZH6UmnqRRvgGV..vlOxiatfWvz1a1NcdHPhxaLDe6C1KHy</column>
+            <column name="name_user">Алина</column>
+            <column name="surname_user">Закиева</column>
+            <column name="lastname_user">Ильдаровна</column>
+            <column name="phone_user">79999999999</column>
+            <column name="mail_user">alina@mail.ru</column>
+            <column name="accept_field">1</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">15</column>
+            <column name="user_login">alina3</column>
+            <column name="user_password">$2y$10$HLB1JUJ0o7XSP0fFSVaA5.z2n/91NjWu7x.uOBtxwg06D8OHHSG9S</column>
+            <column name="name_user">test</column>
+            <column name="surname_user">test</column>
+            <column name="lastname_user">test</column>
+            <column name="phone_user">79999999999</column>
+            <column name="mail_user">test@mail.ru</column>
+            <column name="accept_field">1</column>
+            <column name="SRM_id">NULL</column>
+        </table>
+        <table name="users">
+            <column name="id">16</column>
+            <column name="user_login">alina4</column>
+            <column name="user_password">$2y$10$Wu1ratqm8PIpgWaQ3nTjgeMCMvbuhsWoiBfBQIU/NIK7bp06DYGjK</column>
+            <column name="name_user">Алина</column>
+            <column name="surname_user">Закиева</column>
+            <column name="lastname_user">Ильдаровна</column>
+            <column name="phone_user">79817273683</column>
+            <column name="mail_user">alina@mail.com</column>
+            <column name="accept_field">1</column>
+            <column name="SRM_id">3</column>
+        </table>
+        <!-- Таблица web_development -->
+        <table name="web_development">
+            <column name="id">1</column>
+            <column name="name">Интернет-магазины/e-commerce</column>
+            <column name="price">1000</column>
+        </table>
+        <table name="web_development">
+            <column name="id">2</column>
+            <column name="name">Корпоративные порталы</column>
+            <column name="price">200</column>
+        </table>
+        <table name="web_development">
+            <column name="id">3</column>
+            <column name="name">Высоконагруженные системы</column>
+            <column name="price">250</column>
+        </table>
+        <table name="web_development">
+            <column name="id">4</column>
+            <column name="name">Сайты с системами бронирования и оплатами</column>
+            <column name="price">160</column>
+        </table>
+        <table name="web_development">
+            <column name="id">5</column>
+            <column name="name">Сайты государственных учреждений</column>
+            <column name="price">220</column>
+        </table>
+        <table name="web_development">
+            <column name="id">6</column>
+            <column name="name">Web-интеграция c транспортными компаниями</column>
+            <column name="price">120</column>
+        </table>
+        <table name="web_development">
+            <column name="id">7</column>
+            <column name="name">Web-интеграция с CRM-системами</column>
+            <column name="price">150</column>
+        </table>
+        <table name="web_development">
+            <column name="id">8</column>
+            <column name="name">Web-интеграция с платежными системами</column>
+            <column name="price">160</column>
+        </table>
+        <table name="web_development">
+            <column name="id">9</column>
+            <column name="name">Web-интеграция с учетными системами</column>
+            <column name="price">180</column>
+        </table>
+    </database>
+</pma_xml_export>
